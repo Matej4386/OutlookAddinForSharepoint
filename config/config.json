@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "o-addin-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/oAddin/OAddinWebPart.js",
+          "manifest": "./src/webparts/oAddin/OAddinWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "office": {
+      "path": "https://appsforoffice.microsoft.com/lib/1/hosted/Office.js",
+      "globalName": "office"
+    }
+  },
+  "localizedResources": {
+    "OAddinWebPartStrings": "lib/webparts/oAddin/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

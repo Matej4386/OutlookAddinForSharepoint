@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "m-outlook-addin",
+    "id": "c1d7d5a1-a22d-4f3e-b5a4-eea2a5df37d0",
+    "version": "1.0.2.5",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/m-outlook-addin.sppkg"
+  }
+}

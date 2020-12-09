@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "da78958b-bb41-4c75-98f8-b70ca9bc5de4",
+  "alias": "OAddinWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "OAddin" },
+    "description": { "default": "OAddin description" },
+    "officeFabricIconFontName": "OutlookLogo",
+    "properties": {}
+  }]
+}
